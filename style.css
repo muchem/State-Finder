@@ -1,0 +1,22 @@
+*{
+    margin:0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:center;
+}
+.main-box{
+    position: absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+#searchbar{
+    width:500px;
+    height:25px;
+}
+#searchbar[placeholder]{
+    font-size:20px;
+    padding:5px;
+    text-align:left;
+}
